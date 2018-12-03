@@ -47,22 +47,17 @@ func solution(input []string) int {
 	return count2 * count3
 }
 
-func readFromStdin() []string {
+func readStdin() []string {
 	var res []string
-
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
-		// fmt.Println(scanner.Text())
-
-		// String
 		res = append(res, scanner.Text())
 	}
-
 	return res
 }
 
 func main() {
-	input := readFromStdin()
+	input := readStdin()
 	answer := solution(input)
 
 	fmt.Println("ANSWER: ", answer)

@@ -35,19 +35,17 @@ func solution(input []string) string {
 	return "NOPE"
 }
 
-func readFromStdin() []string {
+func readStdin() []string {
 	var res []string
-
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		res = append(res, scanner.Text())
 	}
-
 	return res
 }
 
 func main() {
-	input := readFromStdin()
+	input := readStdin()
 	answer := solution(input)
 
 	fmt.Println("ANSWER: ", answer)

@@ -1,7 +1,7 @@
-abcde
-fghij
-klmno
-pqrst
-fguij
-axcye
-wvxyz
+abcdef
+bababc
+abbcde
+abcccd
+aabcdd
+abcdee
+ababab

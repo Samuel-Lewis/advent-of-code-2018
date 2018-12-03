@@ -23,13 +23,13 @@ long solution(std::vector<long> input) {
   return -1;
 }
 
-std::vector<long> getInput() {
+std::vector<long> readStdin() {
   std::vector<long> in;
 
-  long val;
   std::string line;
   while (std::getline(std::cin, line)) {
     std::stringstream ss(line);
+    long val;
     ss >> val;
 
     in.push_back(val);
@@ -38,10 +38,9 @@ std::vector<long> getInput() {
 }
 
 int main() {
-  std::vector<long> input = getInput();
+  std::vector<long> input = readStdin();
   long ans = solution(input);
 
   std::cout << ans << std::endl;
-
   return 0;
 }

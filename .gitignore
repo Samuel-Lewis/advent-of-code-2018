@@ -5,3 +5,6 @@
 
 ## C / C++
 *.out
+
+## JAVA
+*.class

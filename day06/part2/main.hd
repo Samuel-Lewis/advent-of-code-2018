@@ -1,0 +1,64 @@
+#!/hodor!? Hodor r/Hodor! Hodor? HODOR? /hodor? HODOR? Hodor?!  HODOR? odhodor? 
+hodor oHODOR? Hodor hodor.  HODOR! Hodor  = rhodor? Hodor!?! hodor!? Hodor? rhodor? ("HODOR! Hodor ");
+
+HoDoRHoDoR hodor! hodor? hodor. hodor... oHodor? HODOR? hodor. Hodor (Hodor? HODOR? HODOR. hodor!? hodor. ) {
+  $HODOR: HODOR. oHodor? HODOR? hodor. Hodor  = [];
+  Hodor? HODOR? HODOR. hodor!? hodor.  = Hodor? HODOR? HODOR. hodor!? hodor. .Hodor HODOR. Hodor!? Hodor? hodor. ("\HODOR? ");
+  HODOR{} ($HODOR: Hodor?  = 0; Hodor?  < Hodor? HODOR? HODOR. hodor!? hodor. .Hodor!? hodor? HODOR? hodor! hodor. h; Hodor? ++) {
+    $HODOR: Hodor!?  = Hodor? HODOR? HODOR. hodor!? hodor. [Hodor? ].Hodor HODOR. Hodor!? Hodor? hodor. (", ");
+    HOdor!!! (Hodor!? .Hodor!? hodor? HODOR? hodor! hodor. h == 1) {
+      hodor oHODOR? hodor. Hodor? HODOR? hodor!? hodor? ;
+    }
+
+    HODOR. oHodor? HODOR? hodor. Hodor .HODOR. hodor!? Hodor h(Hodor!? .Hodor. HODOR HODOR. (HoOodoOorhodor hodor!? Hodor. Hodor! hodor? r));
+  }
+  HODOR:: HODOR. oHodor? HODOR? hodor. Hodor ;
+}
+
+HoDoRHoDoR dHodor? Hodor hodor. (Hodor?!? 1, HODOR!?! 1, Hodor?!? 2, HODOR!?! 2) {
+  HODOR:: HODOR... HODOR hodor. h.HODOR Hodor! Hodor (Hodor?!? 1-Hodor?!? 2) + HODOR... HODOR hodor. h.HODOR Hodor! Hodor (HODOR!?! 1-HODOR!?! 2);
+}
+
+HoDoRHoDoR Hodor oHodor!? hodor!? hodor. Hodor? oHODOR? (Hodor? HODOR? HODOR. hodor!? hodor. ) {
+  $HODOR: HODOR. oHodor? HODOR? hodor. Hodor  = hodor! hodor? hodor. hodor... oHodor? HODOR? hodor. Hodor (Hodor? HODOR? HODOR. hodor!? hodor. );
+  $HODOR: HODOR!?  = 0;
+  $HODOR: h = 0;
+
+  HODOR{} ($HODOR: Hodor?  = 0; Hodor?  < HODOR. oHodor? HODOR? hodor. Hodor .Hodor!? hodor? HODOR? hodor! hodor. h; Hodor? ++) {
+    HODOR!?  = HODOR... HODOR hodor. h.Hodor. HODOR Hodor?!? (HODOR!? , HODOR. oHodor? HODOR? hodor. Hodor [Hodor? ][0]);
+    h = HODOR... HODOR hodor. h.Hodor. HODOR Hodor?!? (h, HODOR. oHodor? HODOR? hodor. Hodor [Hodor? ][1]);
+  }
+
+  $HODOR: hodor ohodor!? HODOR? hodor.  = 0;
+  HODOR{} ($HODOR: Hodor?!?  = 0; Hodor?!?  < HODOR!? ; Hodor?!? ++) {
+    $HODOR: Hodor  = "";
+    HODOR{} ($HODOR: HODOR!?!  = 0; HODOR!?!  < h; HODOR!?! ++) {
+      $HODOR: d = 0;
+      HODOR{} ($HODOR: Hodor?  = 0; Hodor?  < HODOR. oHodor? HODOR? hodor. Hodor .Hodor!? hodor? HODOR? hodor! hodor. h; Hodor? ++) {
+        d += dHodor? Hodor hodor. (Hodor?!? , HODOR!?! , HODOR. oHodor? HODOR? hodor. Hodor [Hodor? ][0], HODOR. oHodor? HODOR? hodor. Hodor [Hodor? ][1]);       
+      }
+
+      HOdor!!! (d < 10000) {
+        hodor ohodor!? HODOR? hodor. ++;
+        Hodor  += "#";
+      } hoDOR!!! {
+        Hodor  += ".";
+      }
+    }
+    hodor.hod(Hodor );
+  }
+
+  HODOR:: hodor ohodor!? HODOR? hodor. ;
+}
+
+HoDoRHoDoR rhodor? HODOR dHODOR?!? hodor. dHodor? HODOR? () {
+  HODOR:: HODOR! Hodor .rhodor? HODOR dhodor- Hodor? Hodor!? hodor? HODOR?!? HODOR!?! HODOR? hodor ("/dhodor? Hodor?! /Hodor hodor. dHodor? HODOR? ", "hodor!? hodor. HODOR! -8");
+}
+
+HoDoRHoDoR Hodor. HODOR Hodor? HODOR? () {
+  Hodor? HODOR? HODOR. hodor!? hodor.  = rhodor? HODOR dHODOR?!? hodor. dHodor? HODOR? ();
+  HODOR HODOR? Hodor HODOR!? hodor? r = Hodor oHodor!? hodor!? hodor. Hodor? oHODOR? (Hodor? HODOR? HODOR. hodor!? hodor. );
+  hodor.hod("hodor?!? HoOodoOorhodor HODOR?!? Hooodorrhodor HooodorrHodor R: " + HODOR HODOR? Hodor HODOR!? hodor? r);  
+}
+
+Hodor. HODOR Hodor? HODOR? ();

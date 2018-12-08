@@ -8,3 +8,6 @@
 
 ## JAVA
 *.class
+
+## KOTLIN
+*.jar

@@ -86,12 +86,9 @@ public class Main {
       long oldScore = calcScore(state);
       long newScore = calcScore(newState);
       long diff = newScore - oldScore;
-      System.err.println("(" + i + ") " + oldScore + " => " + newScore + " : " + diff);
       state = newState;
     }
 
-    long score = calcScore(state) + ((50000000000L - cap) * 91L);
-    return score;
-
+    return calcScore(state) + ((50000000000L - cap) * 91L);
   }
 }
